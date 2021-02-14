@@ -1,0 +1,108 @@
+:root {
+  --primary-color: #89d8ac;
+  --secondary-color: black;
+}
+
+article {
+  position: relative;
+  min-height: 100vh;
+}
+
+header {
+  font-size: 3em;
+  padding: 1%;
+  text-align: center;
+  color: var(--primary-color);
+  font-weight: bold;
+  text-shadow: 2px 2px var(--secondary-color);
+}
+
+footer {
+  font-size: 1em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4rem;
+  padding: 0.75em;
+  text-align: center;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-shadow: 1px 1px var(--secondary-color);
+}
+
+#login {
+  margin: 15%;
+  text-align: center;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 5px 5px 5px var(--secondary-color) inset;
+  }
+
+  10% {
+    box-shadow: 4px 4px 4px var(--secondary-color) inset;
+  }
+
+  20% {
+    box-shadow: 3px 3px 3px var(--secondary-color) inset;
+  }
+
+  30% {
+    box-shadow: 2px 2px 2px var(--secondary-color) inset;
+  }
+
+  40% {
+    box-shadow: 1px 1px 1px var(--secondary-color) inset;
+  }
+
+  50% {
+    box-shadow: none;
+  }
+
+  60% {
+    box-shadow: 2px 2px 2px var(--secondary-color);
+    transform: scale(1.015);
+  }
+
+  70% {
+    box-shadow: 4px 4px 4px var(--secondary-color);
+    transform: scale(1.03);
+  }
+
+  80% {
+    box-shadow: 6px 6px 6px var(--secondary-color);
+    transform: scale(1.06);
+  }
+
+  90% {
+    box-shadow: 8px 8px 8px var(--secondary-color);
+    transform: scale(1.12);
+  }
+
+  100% {
+    box-shadow: 10px 10px 10px var(--secondary-color);
+    transform: scale(1.24);
+  }
+}
+
+.mbp-login-btn {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  padding-top: 3%;
+  font-weight: bold;
+  background-color: var(--primary-color);
+  border-style: none;
+  box-shadow: var(--secondary-color);
+  box-shadow: 5px 5px 5px var(--secondary-color) inset;
+
+  &:hover,
+  &:active,
+  &:focus,
+  &:not(:disabled):not(.disabled):active {
+    background-color: var(--primary-color);
+    box-shadow: 10px 10px 10px var(--secondary-color);
+    animation: 0.2s ease both pulse;
+  }
+}

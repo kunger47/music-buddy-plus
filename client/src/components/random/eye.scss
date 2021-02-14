@@ -1,0 +1,60 @@
+.drawing {
+    margin: 50px;
+    width: fit-content;
+    padding: 25px;
+    background-color: antiquewhite;
+    background-image: radial-gradient(#cc9758 35%, #f9e1c1 75%);
+}
+
+.brow {
+    width: 120px;
+    height: 8px;
+    border-radius: 5px;
+    background-image: linear-gradient(28deg, transparent 10%, #6f4715 90%);
+}
+
+.eye {
+    margin: 5px;
+    width: 115px;
+    height: 50px;
+}
+
+.sclera {
+    width: 95%;
+    height:100%;
+    background-color: rgb(252, 225, 230);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-image: radial-gradient(#faf4f3 35%, rgb(255, 171, 157) 90%)
+}
+
+.iris {
+    width: 44%;
+    height: 90%;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-image: radial-gradient(black 16%, darkgreen 34%, green 38%, lightgreen 66%)
+}
+
+.pupil {
+    width: 50%;
+    height: 50%;
+    background-color: black;
+    display: block;
+    margin: 25%;
+    border-radius: 50px;
+    background-image: radial-gradient(closest-side at 31% 33%, white 3%, black 76%);
+}
+
+.tear-duct {
+    width: 43%;
+    height: 92%;
+    display: inline-flex;
+    border-radius: 20px;
+    margin-left: -49px;
+    background-image: linear-gradient(90deg, transparent 61%, #fd96a8 90%);
+}

@@ -1,0 +1,32 @@
+.mbp-profile {
+    height: 60px;
+    width: 60px;
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    display: inline-flex;
+    box-shadow: 2px 2px 2px var(--secondary-color) inset;
+    /* Ball Looking - cool */
+    /* box-shadow: -10px -10px 15px black inset; */
+}
+
+.mbp-profile-current {
+    height: 60px;
+    width: 60px;
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    display: inline-flex;
+    box-shadow: 2px 2px 2px var(--secondary-color);
+}
+
+.mbp-profile-add {
+  height: 60px;
+    width: 60px;
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    display: inline-flex;
+    box-shadow: 2px 2px 2px var(--secondary-color) inset;
+    align-items: center;
+    justify-content: center; 
+    font-size: x-large;
+    font-weight: 900;
+}
